@@ -12,6 +12,8 @@ jobs:
     env:
       DSP_ANDROID_DEBUG: "1"
       DSP_RELEASE_CHANNEL: beta
+      DSP_ANDROID_VERSION_CODE: "103000"
+      
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
